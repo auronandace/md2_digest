@@ -1,0 +1,21 @@
+[package]
+name = "md2_digest"
+version = "1.0.0"
+edition = "2021"
+rust-version = "1.79" # initial development
+license = "ISC"
+description = "A 0 dependency, no_std library for generating md2 digests."
+authors = ["Mathew John Roberts <auronandace@duck.com>"]
+categories = ["no-std", "no-std::no-alloc", "algorithms"]
+keywords = ["no-std", "hash", "library"]
+readme = "README.md"
+exclude = ["target", "Cargo.lock"]
+documentation = "https://docs.rs/md2_digest"
+repository = "https://github.com/auronandace/md2_digest"
+homepage = "https://github.com/auronandace/md2_digest"
+
+[lib]
+name = "md2_digest"
+path = "src/lib.rs"
+
+[dependencies]
